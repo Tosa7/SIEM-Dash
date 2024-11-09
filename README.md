@@ -65,12 +65,12 @@
 
 <h3>3. Configuring the First Visualization</h3>
 <p>I initiated the visualization creation by selecting the "Create visualization" option and specified Event ID <code>4625</code> (indicating failed logon attempts on Windows systems) using the filter option.</p>
-<img src="https://i.imgur.com/p7R69ga.png" alt="Filter Configuration">
+<img src="https://imgur.com/1594qyG.png" alt="Filter Configuration">
 <p>The index pattern was set to <code>windows*</code>, ensuring data capture from Windows-based logs.</p>
 
 <h3>4. Refining Data Selection</h3>
 <p>I verified the existence of necessary fields, such as <code>user.name.keyword</code>, for accurate data aggregation.</p>
-<img src="https://i.imgur.com/wfvI2UW.png" alt="Search Bar Verification">
+<img src="https://imgur.com/eCfCCjb.png" alt="Search Bar Verification">
 <p>The "Table" type was chosen for visualization, and rows were configured to display usernames, the host machine, and the count of failed attempts.</p>
 
 <h3>5. Adjusting Metrics and Settings</h3>
