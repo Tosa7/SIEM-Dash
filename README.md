@@ -57,7 +57,7 @@
 
 <h3>1. Setting Up the Environment</h3>
 <p>I started by navigating to the target system and accessing the dashboard interface at <code>http://[Target IP]:5601</code>.</p>
-<img src="https://i.imgur.com/VhqSfrQ.png" alt="Dashboard Interface">
+<img src="https://imgur.com/T0Dsy9w.png" alt="Dashboard Interface">
 <p>Initially, I deleted any pre-existing dashboards (like "SOC-Alerts") to create a fresh workspace.</p>
 
 <h3>2. Creating the Dashboard</h3>
