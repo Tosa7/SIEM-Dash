@@ -65,17 +65,17 @@
 
 <h3>3. Configuring the First Visualization</h3>
 <p>I initiated the visualization creation by selecting the "Create visualization" option and specified Event ID <code>4625</code> (indicating failed logon attempts on Windows systems) using the filter option.</p>
-<img src="https://imgur.com/1594qyG.png" alt="Filter Configuration">
+<img src="https://imgur.com/eCfCCjb.png" alt="Filter Configuration">
 <p>The index pattern was set to <code>windows*</code>, ensuring data capture from Windows-based logs.</p>
 
 <h3>4. Refining Data Selection</h3>
 <p>I verified the existence of necessary fields, such as <code>user.name.keyword</code>, for accurate data aggregation.</p>
-<img src="https://imgur.com/eCfCCjb.png" alt="Search Bar Verification">
+<img src="https://imgur.com/WCjc4BA.png" alt="Search Bar Verification">
 <p>The "Table" type was chosen for visualization, and rows were configured to display usernames, the host machine, and the count of failed attempts.</p>
 
 <h3>5. Adjusting Metrics and Settings</h3>
 <p>Under "Metrics," I selected "Count" as the metric to populate the table with data.</p>
-<img src="https://i.imgur.com/ZT4zr3u.png" alt="Metrics Configuration">
+<img src="https://imgur.com/xVXH3PN.png" alt="Metrics Configuration">
 <p>An additional row was set to display <code>host.hostname.keyword</code>, detailing the involved machines.</p>
 
 <h3>6. Incorporating Advanced Refinements</h3>
@@ -86,7 +86,7 @@
 
 <h3>7. Finalizing the Visualization</h3>
 <p>I saved and titled the visualization, resulting in an informative table displaying usernames, host machines, and counts of failed logon attempts.</p>
-<img src="https://i.imgur.com/1mSGYWv.png" alt="Completed Visualization">
+<img src="https://imgur.com/1R4hf1d.png" alt="Completed Visualization">
 
 <h2>Key Takeaways</h2>
 <p>This project enhanced my practical understanding of building SIEM dashboards. It demonstrated:</p>
